@@ -1,7 +1,18 @@
-namespace ClassLibrary1
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Text;
+
+namespace Solution3
 {
-    public class NameSpaceData
+    public class NamespaceData
     {
-        
+        public string Name { get; }
+        public ObservableCollection<ClassData> Classes { get; set; }
+        public NamespaceData(string name)
+        {
+            Name = name;
+            Classes = new ObservableCollection<ClassData>();
+        }
     }
 }
