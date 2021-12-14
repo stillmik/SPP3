@@ -1,0 +1,10 @@
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\bin\Debug\netcoreapp3.1\SppLab3.deps.json
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\bin\Debug\netcoreapp3.1\SppLab3.dll
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\bin\Debug\netcoreapp3.1\SppLab3.pdb
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.csproj.AssemblyReference.cache
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.AssemblyInfoInputs.cache
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.AssemblyInfo.cs
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.csproj.CoreCompileInputs.cache
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.dll
+C:\Users\Иван\Source\Repos\SppLab3\SppLab3\obj\Debug\netcoreapp3.1\SppLab3.pdb
