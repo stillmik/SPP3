@@ -25,34 +25,6 @@ namespace NUnitTest
         }
 
         [Test]
-        public void TestAssemblyBrowser()
-        {
-            Assert.AreEqual(ad.Name, "NUnitTest");
-            Assert.AreEqual(ad.Namespaces.Count, 1);
-            Assert.AreEqual(ad.Namespaces[0].Name, "NUnitTest");
-            Assert.AreEqual(ad.Namespaces[0].Classes.Count, 2);
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Name, "Extension");
-
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members.Count, 3);
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[0].Name, "Fields");
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[1].Name, "Properties");
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[2].Name, "Methods");
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[0].Items.Count, 0);
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[1].Items.Count, 0);
-            Assert.AreEqual(ad.Namespaces[0].Classes[0].Members[2].Items.Count, 6);
-
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Name, "Tests");
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members.Count, 3);
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[0].Name, "Fields");
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[1].Name, "Properties");
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[2].Name, "Methods");
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[0].Items.Count, 3);
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[1].Items.Count, 1);
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[2].Items.Count, 11);
-            Assert.AreEqual(ad.Namespaces[0].Classes[1].Members[2].Items[10], "Extension:Int32 EM(NUnitTest.Tests, Int32)");
-        }
-
-        [Test]
         public void AssemblyIsNotEmpty()
         {   
             int expected = 0;
@@ -66,6 +38,78 @@ namespace NUnitTest
             int expected = 2;
             int actual = ad.Namespaces[0].Classes.Count;
             Assert.AreEqual(expected, actual);
+        }
+        
+        [Test]
+        public void CorrectClassExtensionName()
+        {
+            string expected = "Extension";
+            string actual = ad.Namespaces[0].Classes[0].Name;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassTestsFieldsCount()
+        {
+            int expected = 4;
+            int actual = ad.Namespaces[0].Classes[1].Members[0].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassTestsPropertiesCount()
+        {
+            int expected = 1;
+            int actual = ad.Namespaces[0].Classes[1].Members[1].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassTestsMethodsCount()
+        {
+            int expected = 23;
+            int actual = ad.Namespaces[0].Classes[1].Members[2].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassTestsName()
+        {
+            string expected = "Tests";
+            string actual = ad.Namespaces[0].Classes[1].Name;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassExtensionFieldsCount()
+        {
+            int expected = 0;
+            int actual = ad.Namespaces[0].Classes[0].Members[0].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassExtensionPropertiesCount()
+        {
+            int expected = 0;
+            int actual = ad.Namespaces[0].Classes[0].Members[1].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+        
+        [Test]
+        public void CorrectClassExtensionMethodsCount()
+        {
+            int expected = 6;
+            int actual = ad.Namespaces[0].Classes[0].Members[2].Items.Count;
+            Assert.AreEqual(expected,actual);
+        }
+
+        [Test]
+        public void ExtensionInfo()
+        {
+            string expected = ad.Namespaces[0].Classes[1].Members[2].Items[22];
+            string actual = "Extension:Int32 EM(NUnitTest.Tests, Int32)";
+            Assert.AreEqual(expected,actual );
         }
 
         [Test]
