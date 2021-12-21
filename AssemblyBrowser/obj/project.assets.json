@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\AssemblyBrowser\\AssemblyBrowser.csproj",
+      "projectUniqueName": "C:\\Users\\User\\RiderProjects\\SPP3\\AssemblyBrowser\\AssemblyBrowser.csproj",
       "projectName": "AssemblyBrowser",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\AssemblyBrowser\\AssemblyBrowser.csproj",
+      "projectPath": "C:\\Users\\User\\RiderProjects\\SPP3\\AssemblyBrowser\\AssemblyBrowser.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\AssemblyBrowser\\obj\\",
+      "outputPath": "C:\\Users\\User\\RiderProjects\\SPP3\\AssemblyBrowser\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\SppLab3\\SppLab3.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\SppLab3\\SppLab3.csproj"
+            "C:\\Users\\User\\RiderProjects\\SPP3\\SppLab3\\SppLab3.csproj": {
+              "projectPath": "C:\\Users\\User\\RiderProjects\\SPP3\\SppLab3\\SppLab3.csproj"
             }
           }
         }
@@ -86,7 +86,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
       }
     }
   }

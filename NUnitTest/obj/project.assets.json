@@ -4649,11 +4649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\NUnitTest\\NUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\RiderProjects\\SPP3\\NUnitTest\\NUnitTest.csproj",
       "projectName": "NUnitTest",
-      "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\NUnitTest\\NUnitTest.csproj",
+      "projectPath": "C:\\Users\\User\\RiderProjects\\SPP3\\NUnitTest\\NUnitTest.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\NUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\User\\RiderProjects\\SPP3\\NUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4670,8 +4670,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\SppLab3\\SppLab3.csproj": {
-              "projectPath": "C:\\Users\\User\\OneDrive\\Рабочий стол\\spp3-master\\SppLab3\\SppLab3.csproj"
+            "C:\\Users\\User\\RiderProjects\\SPP3\\SppLab3\\SppLab3.csproj": {
+              "projectPath": "C:\\Users\\User\\RiderProjects\\SPP3\\SppLab3\\SppLab3.csproj"
             }
           }
         }
@@ -4714,7 +4714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.209\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.210\\RuntimeIdentifierGraph.json"
       }
     }
   }

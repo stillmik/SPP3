@@ -1,0 +1,15 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=9464a0d5_002Dd5b7_002D4571_002Dadfe_002D1bbf7f602e22/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AssemblyIsNotEmpty #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.AssemblyIsNotEmpty&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ce4e701a_002Dad94_002D4429_002D8fbc_002D355c1ac05205/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AssemblyIsNotEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.AssemblyIsNotEmpty&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.CorrectClassCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.ClassHasCorrectMembersCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.IncorrectAssemblyPathTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::A13BB583-BBB5-4525-AF1F-49856C74BAB9::.NETCoreApp,Version=v3.1::NUnitTest.Tests.TestAssemblyBrowser&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

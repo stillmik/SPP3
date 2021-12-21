@@ -17,6 +17,7 @@ namespace AssemblyBrowser
         private ICommand openFileCommand;
         private ICommand exitCommand;
         public event PropertyChangedEventHandler PropertyChanged;
+
         public void OnPropertyChanged([CallerMemberName] string prop = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(prop));
@@ -26,6 +27,7 @@ namespace AssemblyBrowser
         {
             this.model = model;
         }
+
         public string AssemblyFileName
         {
             get => model.AssemblyFileName;
@@ -33,13 +35,11 @@ namespace AssemblyBrowser
             {
                 model.AssemblyFileName = value;
                 AssemblyData = new ObservableCollection<AssemblyData>
-                {
-                    SppLab3.AssemblyBrowser.GetAssemblyData(model.AssemblyFileName)
-                };
-
+                    {SppLab3.AssemblyBrowser.GetAssemblyData(model.AssemblyFileName)};
                 OnPropertyChanged("AssemblyFileName");
             }
         }
+
         public ObservableCollection<AssemblyData> AssemblyData
         {
             get => model.AssemblyData;
@@ -55,24 +55,19 @@ namespace AssemblyBrowser
             get
             {
                 return openFileCommand ??= new Command(obj =>
-                  {
-                      OpenFileDialog dialog = new OpenFileDialog();
-                      if (dialog.ShowDialog() == true)
-                      {
-                          AssemblyFileName = dialog.FileName;
-                      }
-                  });
-            }
-        }
-        public ICommand ExitCommand
-        {
-            get
-            {
-                return exitCommand ??= new Command(obj =>
                 {
-                    Application.Current.Shutdown();
+                    OpenFileDialog dialog = new OpenFileDialog();
+                    if (dialog.ShowDialog() == true)
+                    {
+                        AssemblyFileName = dialog.FileName;
+                    }
                 });
             }
+        }
+
+        public ICommand ExitCommand
+        {
+            get { return exitCommand ??= new Command(obj => { Application.Current.Shutdown(); }); }
         }
     }
 }
